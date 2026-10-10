@@ -1,0 +1,5 @@
+Source extraction result for arXiv:2609.29179 (Soti et al., 2026) — underwater acoustic vessel classification.
+Source quality: primary open-access arXiv preprint (free, no paywall).
+Falsifiable claims extracted with direct quotes (see StructuredOutput call).
+Publication date: 2026 (arXiv:2609.29179).
+No fabricated citations or results.

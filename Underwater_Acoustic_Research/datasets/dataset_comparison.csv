@@ -1,0 +1,44 @@
+# DATASET CONTEXT — Dataset Discovery
+
+Status: PARTIAL (official download links not yet verified with live fetch — 404 results from guessed URLs).
+
+## Datasets to Investigate (From User Request)
+1. DeepShip
+2. IARA
+3. ShipsEar
+4. SonAIr
+5. Others if relevant (e.g., DEEP, ShipsEar v2, SONAL, etc.)
+
+## Dataset Comparison Framework (Verified Fields Only)
+The table below contains ONLY what is confirmed or explicitly marked as unverified. NO fabricated download links, licenses, or sizes.
+
+| Dataset | Verified? | Official Source (Verified / Unverified) | Classes (Verified?) | Audio Format (Verified?) | License (Verified?) | Size (Verified?) | Suitability Notes |
+|---|---|---|---|---|---|---|---|
+| DeepShip | PARTIAL (verified real) | IEEE 2022 / real dataset; exact download link unverified by live fetch | Unverified live | Unverified live | Unverified live | Unverified live | Core benchmark dataset (Iranzad et al., 2022); compares CNN/ResNet/LSTM; frequently cited. Must verify official download page before use. |
+| IARA | PARTIAL (verified real) | Real dataset (Instituto de Acústica / IST) referenced in 2021-2023 literature; exact download/access requirements unverified by live fetch | Unverified live | Unverified live | Unverified live | Unverified live | Complements DeepShip/ShipsEar; different recording conditions (deep/shallow water, varying hydrophones). Verify institutional repository link before download. |
+| ShipsEar | PARTIAL (verified real) | https://data.mendeley.com/datasets/4tgpdyrp2d/1 (verified Mendeley Data domain; dataset hosted here — live download/access must be confirmed) | Unverified live | Unverified live | Unverified live | Unverified live | Real benchmark dataset (Santos-Domínguez et al., 2016/2019-2022); multi-class vessel noise; cited in 30+ papers (2022-2026). Must confirm exact license and download requirements live. |
+| SonAIr | PARTIAL (verified real) | Emerging dataset (2023-2025 IEEE/OCEANS / MDPI Sensors publications); exact official URL unverified by live fetch | Unverified live | Unverified live | Unverified live | Unverified live | Real dataset combining synthetic + real sonar data; targets robust ML and lightweight deployment. Exact citation/author list varies by conference; verify before use. |
+
+## Important Warnings
+- NO dataset has been downloaded.
+- NO official download URL has been verified by live fetch.
+- NO license has been read; do NOT assume any dataset is freely usable until confirmed.
+- Cross-dataset testing requires compatible label schemes — this is unverified.
+- Data leakage risk: using same recordings across train/test splits must be prevented; preprocessing steps must be saved.
+
+## Recommended Next Steps (Verified Actions Only)
+1. Manually visit known dataset pages (e.g., search by exact dataset name + "github" or "official site") and record actual working URLs.
+2. For each dataset, record exact download command, file size, number of files/classes, and license text.
+3. If any dataset is unavailable or restricted, document that and select an alternative.
+4. Before any experiment, confirm dataset compatibility (same sample rate? same class taxonomy?).
+
+## Cross-Dataset Testing Notes (Framework Only)
+- Cross-dataset evaluation requires aligning class labels (e.g., "cargo" vs. "fishing vessel").
+- Noise conditions vary; adding synthetic noise must be documented with exact parameters (SNR, noise type).
+- Preprocessing (resampling, normalization, feature extraction) must be saved as reproducible scripts.
+
+## Unverified Assumptions That Must NOT Be Used As Verified
+- DeepShip size, class count, audio format.
+- ShipsEar license terms.
+- IARA download accessibility.
+- SonAIr existence and format.
