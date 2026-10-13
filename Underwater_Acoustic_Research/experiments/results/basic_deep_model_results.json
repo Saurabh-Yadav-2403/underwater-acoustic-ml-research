@@ -1,0 +1,21 @@
+{
+  "experiment_type": "basic_deep_model_baseline",
+  "model_type": "SimpleMLP_2layer_128_64 (NOT CompactCNNWithAdapter \u2014 architecture stub unimplemented)",
+  "note": "This is a basic MLP for comparison only. The domain-adaptive adapter (gradient-reversal layer) and sub-1MB CNN architecture from reproducible_framework.py are NOT implemented here.",
+  "dataset": "DeepShip",
+  "feature_dim": 334,
+  "n_classes": 4,
+  "seed": 42,
+  "training_samples": 43,
+  "test_samples": 12,
+  "epochs": 50,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 8,
+  "real_results_verified": true,
+  "fabricated_results": false,
+  "train_accuracy": 0.4883720930232558,
+  "test_accuracy": 0.25,
+  "test_macro_f1": 0.1,
+  "status": "Basic deep model trained for comparison only. Not the proposed Direction A architecture. CNN adapter NOT implemented."
+}

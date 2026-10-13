@@ -1,0 +1,81 @@
+{
+  "split": "test",
+  "n_samples": 12,
+  "classes": [
+    "Cargo",
+    "Passengership",
+    "Tanker",
+    "Tug"
+  ],
+  "feature_params": {
+    "sample_rate": 22050,
+    "duration": 5.0,
+    "n_mfcc": 13,
+    "n_mels": 128,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "feature_type": "combined"
+  },
+  "samples": [
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\44.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\14.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\29.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\27.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\6.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\62.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\24.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\12.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\35.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tug\\9.wav",
+      "class": "Tug",
+      "class_idx": 3
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\42.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\38.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    }
+  ]
+}

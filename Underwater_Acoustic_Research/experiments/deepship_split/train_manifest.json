@@ -1,0 +1,236 @@
+{
+  "split": "train",
+  "n_samples": 43,
+  "classes": [
+    "Cargo",
+    "Passengership",
+    "Tanker",
+    "Tug"
+  ],
+  "feature_params": {
+    "sample_rate": 22050,
+    "duration": 5.0,
+    "n_mfcc": 13,
+    "n_mels": 128,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "feature_type": "combined"
+  },
+  "samples": [
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\29.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\21.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\103.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\17.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\20.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\2.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\10.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\110.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\27.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\96.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\1.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\32.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\5.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\49.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\6.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\41.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\47.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\50.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\30.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\9.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\50.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\19.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\33.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tug\\49.wav",
+      "class": "Tug",
+      "class_idx": 3
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\16.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\37.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\5.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tug\\40.wav",
+      "class": "Tug",
+      "class_idx": 3
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\9.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\12.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\8.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\8.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\31.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\48.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\41.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\15.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\78.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\69.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\14.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\41.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Passengership\\32.wav",
+      "class": "Passengership",
+      "class_idx": 1
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Tanker\\39.wav",
+      "class": "Tanker",
+      "class_idx": 2
+    },
+    {
+      "path": "datasets\\DeepShip\\DeepShip-main\\Cargo\\99.wav",
+      "class": "Cargo",
+      "class_idx": 0
+    }
+  ]
+}
